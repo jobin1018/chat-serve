@@ -1,0 +1,42 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.sock
+
+# Docker and local volumes
+.docker/
+docker-compose.override.yml
+
+# Local editor and assistant state
+.vscode/
+.idea/
+.codex
+.claude/
+.codex/
+
+# OS files
+.DS_Store
+Thumbs.db

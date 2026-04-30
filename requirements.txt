@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+anthropic
+redis[asyncio]
+asyncpg
+python-dotenv
+httpx
+pydantic
+pydantic-settings
